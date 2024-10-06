@@ -1,0 +1,64 @@
+:root {
+    --cl-text-dark:#252525;
+    --cl-text-light:#ebebeb;
+    --cl-background:#f2ebeb;
+    --cl-headerfooter:#1c5c88;
+    --cl-section-border:#33a091;
+    --cl-section-border-dark:#1b514a;
+    --cl-section-shadow:#d3dce2;
+
+    --body-text-size: 12px;
+    --header-text-size: 120px;
+}
+
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    width: 100%;
+    padding: 4px;
+    height: var(--header-text-size);
+    background-color: var(--cl-headerfooter);
+    color: var(--cl-text-light);
+}
+
+
+h1, h2 {
+    text-align: center;
+}
+
+
+
+ul {
+    padding-left: 8%;
+    text-align: left;
+    font-size: var(--body-text-size);
+    color: var(--cl-text-dark)
+}
+
+img {
+    display: block;
+    height: 60px;
+    width: 60px;
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    text-align: center;
+    font-size: var(--body-text-size);
+}
+
+.card {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*not working here*/
+    width: 80%;
+    margin: 20px auto;
+    padding: 8px;
+    border: 4px double var(--cl-section-border);
+    box-shadow: 2px 6px var(--cl-section-shadow);
+}
